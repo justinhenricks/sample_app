@@ -52,7 +52,7 @@ describe "Authentication" do
         describe "after signing in" do
 
           it "should render the desired protected page" do
-            page.should have_selector('title', text: 'Ruby on Rails Tutorial Sample App')
+            page.should have_selector('title', text: 'The Connection')
           end
         end
       end
